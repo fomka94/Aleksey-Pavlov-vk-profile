@@ -11,9 +11,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    @IBOutlet weak var statusButton: UIImageView!
+    @IBAction func editBottom(_ sender: Any) {
+    }
+        @IBAction func historyBottom(_ sender: Any) {
+        }
+    @IBAction func noteBottom(_ sender: Any) {
+    }
+    @IBAction func photoBottom(_ sender: Any) {
+    }
+    @IBAction func clipBottom(_ sender: Any) {
+    }
 }
 
